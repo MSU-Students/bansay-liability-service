@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { LiabilityModule } from './liabiility/liability.module';
+import { LiabilityModule } from './liability/liability.module';
 
 @Module({
   imports: [LiabilityModule],
